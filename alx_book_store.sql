@@ -40,7 +40,7 @@ CREATE TABLE Orders (
 
 -- Create the Order_Details table
 CREATE TABLE Order_Details (
-    orderdetailid INT PRIMARY KEY, -- Primary key for the Order_Details table
+    order_details INT PRIMARY KEY, -- Primary key for the Order_Details table
     order_id INT, -- Foreign key referencing the Orders table
     book_id INT, -- Foreign key referencing the Books table
     quantity DOUBLE, -- Quantity of the book in the order
